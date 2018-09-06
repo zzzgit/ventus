@@ -1,0 +1,14 @@
+body{
+    background-color: #3f66a7;
+}
+.el-submenu .el-menu-item{
+    padding: 0 0;
+}
+.el-submenu .el-menu-item > a{
+    padding: 0 45px;
+    display: block;
+    color: rgb(191, 203, 217);
+}
+.el-submenu .el-menu-item.is-active > a{
+    color: #20a0ff;
+}

@@ -1,0 +1,58 @@
+.top{
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: auto auto;
+    &>.main{
+        &>.header{
+            height: 30px;
+            line-height: 30px;
+            background-color: rgba(4, 20, 46, 0.5);
+            &>.main{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                &>.section-left: {
+                    color:blue;
+                    &>.icon{
+                        &:before{
+                            content: "\E620";
+                        }
+                    }
+                }
+                &>.section-right: {
+                    text-align: right;
+                }
+            }
+        }
+        &>.container{
+            padding: 20px;
+        }
+    }
+}
+.aside{
+    
+}
+.page{
+    border-radius: 5px;
+    &>.statistics{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px 5px 0px 0px;
+        &>span{
+            margin-left: 10px;
+        }
+    }
+    &>.content{
+        background-color: rgba(255, 255, 255, 0.7);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+        color: #333;
+        padding: 0 0.5rem 3rem;
+        &>.search{
+            height: 40px;
+            &>form{
+                height: 40px;
+            }
+        }
+    }
+}
+

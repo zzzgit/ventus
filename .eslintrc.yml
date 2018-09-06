@@ -1,0 +1,28 @@
+env:
+  es6: true
+extends: ['eslint:recommended', 'plugin:react/recommended']
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+globals:
+  NODE_ENV: true
+  var2: false
+  kkk: true
+rules:
+  indent:
+    - error
+    - tab
+    - {SwitchCase: 1}
+  linebreak-style:
+    - off
+  quotes:
+    - off
+  semi:
+    - error
+    - never
+  no-useless-escape:
+    - warn
+  no-console:
+    - off
