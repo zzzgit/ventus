@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import Login from './views/login.vue'
 import NotFound from './views/404.vue'
 import NoPermission from './views/noPermission.vue'
@@ -14,6 +16,6 @@ let routes = [
 		path: '/404',
 		component: NotFound,
 	}
-];
+]
 
-export default routes;
+export default routes
