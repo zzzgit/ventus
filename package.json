@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "venus",
   "version": "0.1.0",
   "scripts": {
     "front": "node scripts/start.js",
@@ -11,6 +11,8 @@
   "dependencies": {
     "@babel/core": "7.1.6",
     "@svgr/webpack": "2.4.1",
+    "apollo-boost": "^0.1.23",
+    "apollo-server-koa": "^2.3.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
@@ -36,12 +38,19 @@
     "file-loader": "2.0.0",
     "fork-ts-checker-webpack-plugin-alt": "0.4.14",
     "fs-extra": "7.0.0",
+    "graphql": "^14.0.2",
+    "graphql-import": "^0.7.1",
+    "graphql-tag": "^2.10.0",
+    "graphql-tools": "^4.0.3",
     "html-webpack-plugin": "4.0.0-alpha.2",
     "identity-obj-proxy": "3.0.0",
     "jest": "23.6.0",
     "jest-pnp-resolver": "1.0.1",
     "jest-resolve": "23.6.0",
     "koa": "^2.6.2",
+    "koa-body-parser": "^1.1.2",
+    "koa-graphql": "^0.8.0",
+    "koa-router": "^7.4.0",
     "koa2-cors": "^2.0.6",
     "mini-css-extract-plugin": "0.4.3",
     "optimize-css-assets-webpack-plugin": "5.0.1",
@@ -51,6 +60,7 @@
     "postcss-preset-env": "6.3.1",
     "postcss-safe-parser": "4.0.1",
     "react": "^16.7.0",
+    "react-apollo": "^2.3.3",
     "react-app-polyfill": "^0.2.0",
     "react-dev-utils": "^7.0.0",
     "react-dom": "^16.7.0",
@@ -120,5 +130,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@playlyfe/gql": "^2.6.1"
   }
 }

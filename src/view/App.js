@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router,
 	Route, 
+	// eslint-disable-next-line no-unused-vars
 	Redirect,
 	Switch as Sw 
 } from "react-router-dom"
@@ -33,7 +34,7 @@ class App extends Component {
 			<div className="App">
 				<Router>
 					<div>
-						<Redirect exact from="/" to="/student" />
+						{/* <Redirect exact from="/" to="/student" /> */}
 						<Sw>
 							<Route path="/login" component={login} />
 							<Route path="/404" component={no} />

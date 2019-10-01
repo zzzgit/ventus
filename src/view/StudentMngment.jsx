@@ -50,13 +50,6 @@ class MemberMngment extends Component {
 			form: Object.assign(this.state.searchFormModel, { [key]: value })
 		})
 	}
-	componentDidMount() {
-		queryStudentList({}, {}).then(data => {
-			this.setState({ tableData_ds: [data] })
-		}).catch(e => {
-			console.log(e)
-		})
-	}
 	render() {
 		return (
 			<div className="page">
@@ -119,6 +112,13 @@ class MemberMngment extends Component {
 				</section>
 			</div>
 		)
+	}
+	componentDidMount() {
+		queryStudentList({}).then(data => {
+			this.setState({ "tableData_ds": data })
+		}).catch(e => {
+			console.log(222, e)
+		})
 	}
 }
 export default MemberMngment

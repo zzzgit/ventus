@@ -5,7 +5,7 @@ export default {
 	//env: NODE_ENV ? NODE_ENV : "dev",
 	getDomain() {
 		if (ab > 2) {
-			return "http://127.0.0.1:9999"
+			return "http://127.0.0.1:19999"
 		}
 		return {
 			dev: "http://172.28.200.22:9190",

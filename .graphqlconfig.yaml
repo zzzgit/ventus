@@ -1,0 +1,3 @@
+projects:
+  venus:
+    schemaPath: ./server/gql/schema.graphql

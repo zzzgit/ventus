@@ -3,6 +3,7 @@ import globalConfig from './config.js'
 import { fix } from './utils.js'
 
 export const queryStudentList = (body, pager, timeout) => { return post(`${globalConfig.getDomain()}/api/query/students`, body, pager, timeout) }
+export const queryNumberList = (body, pager, timeout) => { return post(`${globalConfig.getDomain()}/api/query/numbers`, body, pager, timeout) }
 export const payOwnerConfigGetPayOwnerConfigInfo = (body) => { return get(`${globalConfig.getDomain()}/payOwnerConfig/getPayOwnerConfigInfo`, body) }
 
 const fetchTimeout = 1000 * 14

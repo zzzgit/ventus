@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { withRouter } from "react-router-dom"
 class OwnerMngment extends Component {
 	render() {
 		return (
@@ -9,4 +8,4 @@ class OwnerMngment extends Component {
 		)
 	}
 }
-export default withRouter(OwnerMngment)
+export default OwnerMngment

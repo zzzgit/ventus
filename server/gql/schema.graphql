@@ -1,0 +1,16 @@
+type Number {
+	id: Int,
+	number: String
+	price: Int
+}
+type Tsp {
+	id: Int,
+	name: String
+	symbol: String
+}
+
+type Query {
+	number(id: Int): [Number],
+	tsp: [Tsp],
+}
+
