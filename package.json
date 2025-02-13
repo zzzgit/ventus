@@ -69,7 +69,7 @@
     "sass-loader": "7.1.0",
     "sqlite3": "^5.1.7",
     "style-loader": "0.23.0",
-    "terser-webpack-plugin": "1.4.5",
+    "terser-webpack-plugin": "5.3.11",
     "url-loader": "1.1.1",
     "webpack": "5.94.0",
     "webpack-dev-server": "4.11.1",
